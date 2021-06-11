@@ -5,17 +5,18 @@
 }
 
 body {
+  font-family: 'montseratt', sans-serif;
 }
 
-.App {
-  background-image: url(./assets/cold-bg.jpg);
+.app {
+  background-image: url('./assets/cold-bg.jpg');
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
+  transition: 0.4 ease;
 }
 
-.App.warm {
-  background-image: url(./assets/warm-bg.jpg);
+.app.warm {
+  background-image: url('./assets/warm-bg.jpg');
 }
 
 main {
@@ -44,7 +45,7 @@ main {
   margin-top: -25px;
 
   box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
-
+  
   color: #313131;
   font-size: 20px;
 
@@ -72,11 +73,11 @@ main {
   text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
 }
 
-.wheater-box {
+.weather-box {
   text-align: center;
 }
 
-.wheater-box .temperature {
+.weather-box .temperature {
   position: relative;
   display: inline-block;
   margin: 30px auto;
@@ -84,6 +85,7 @@ main {
   border-radius: 16px;
 
   padding: 15px 25px;
+
   color: #FFF;
   font-size: 102px;
   font-weight: 900;
@@ -93,7 +95,7 @@ main {
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
 }
 
-.wheater-box .wheater {
+.weather-box .weather {
   color: #FFF;
   font-size: 48px;
   font-weight: 700;
