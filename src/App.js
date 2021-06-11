@@ -36,7 +36,7 @@ function App() {
         <div className="wheater-box"></div>
         <div className="wheater-box">
           <div className="temperature">
-            15C
+            15°C
           </div>
           <div className="wheater">Sunny</div>
         </div>
